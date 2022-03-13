@@ -12,3 +12,13 @@ do., 13 de mar. de 2022 18:32:40:
 bash: gcc: command not found
 Compilation failed
 907e63b
+Sun Mar 13 19:48:46 HSP 2022: 
+In file included from test.c:5:0:
+exercises.c:43:6: error: redefinition of 'sumaNultimos'
+ void sumaNultimos(int a[], int n, int m, int * suma) {
+      ^~~~~~~~~~~~
+exercises.c:21:6: note: previous definition of 'sumaNultimos' was here
+ void sumaNultimos(int a[], int n, int m, int *suma){
+      ^~~~~~~~~~~~
+Compilation failed
+837da09
