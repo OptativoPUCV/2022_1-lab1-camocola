@@ -12,12 +12,16 @@ y en c almacena el valor de la suma de a más b.
 */
 
 void suma(int a, int b, int * c) {
-    
+    * c = a + b;
 }
 
 /*
 Esta función suma los N primeros números del arreglo a
 */
+void sumaNultimos(int a[], int n, int m, int *suma){
+   
+}
+
 int sumaN(int a[], int N) {
     int i;
     int tot = 0;
