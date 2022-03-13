@@ -18,9 +18,6 @@ void suma(int a, int b, int * c) {
 /*
 Esta función suma los N primeros números del arreglo a
 */
-void sumaNultimos(int a[], int n, int m, int *suma){
-   
-}
 
 int sumaN(int a[], int N) {
     int i;
@@ -59,6 +56,7 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
+   
    return NULL;
 }
 
