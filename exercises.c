@@ -66,8 +66,6 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
 
    strcpy (p->nombre, nombre);
    strcpy (p->rut, rut);
-   //p->nombre = nombre;
-   //p->rut = rut;
    p->edad = edad;
    return p;
 }
@@ -86,8 +84,11 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
+   Vector* a = malloc (sizeof(Vector));
+   a->datos = (int*) calloc (n,sizeof(int));
 
-   return NULL;
+   //Vector* d = () calloc (sizeof(a->));
+   return a;
 }
 
 /*
